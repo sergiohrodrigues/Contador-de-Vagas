@@ -1,0 +1,68 @@
+body{
+    background: black;
+}
+
+.principal{
+    margin: 200px auto;
+    width: 500px;
+    text-align: center;
+    background: rgb(32, 31, 31);
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+.principal h1{
+    color: white;
+    font-size: 35px;
+    padding: 15px 0 15px;
+    font-weight: bold; 
+}
+
+.total__vagas{
+    text-align: center;
+    padding: 5px;
+}
+
+.botao1{
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botao1:hover{
+    cursor: pointer;
+    background: rgb(165, 165, 165);
+}
+
+.botao2{
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin-right: 20px;
+}
+
+.botao2:hover{
+    background: green;
+    cursor: pointer;
+}
+
+.botao3{
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.botao3:hover{
+    background: red;
+    cursor: pointer;
+}
+
+#resultado{
+    color: white;
+    font-size: 30px;
+    margin: 10px auto 10px;
+    width: 150px;
+    padding: 10px;
+}
