@@ -53,7 +53,7 @@ function saiu(){
 function limpar(){
   var vagas = document.querySelector("#valor").value;
   if(vagas.length == ""){
-    alert('Nao tem oq limpar')
+    alert('Não tem dados para limpar')
   } else {
     document.querySelector("#valor").value = "";
     document.querySelector("#resultado").textContent = "";
