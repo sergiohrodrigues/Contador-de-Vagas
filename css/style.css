@@ -1,3 +1,6 @@
+@import './principal.css';
+@import './secundaria.css';
+
 :root{  
     --fonte: 'Crimson Text', serif;
     --branco: #FFFFFF;
@@ -12,132 +15,12 @@ body{
     font-weight: 400;
 }
 
-.principal{
+.container{
     background: rgb(32, 31, 31);
     width: 70%;
-    max-width: 350px;
-    margin: 130px auto;
+    min-width: 250px;
+    margin: 150px auto;
     text-align: center;
-    padding: 15px;
+    padding: 50px 15px;
     border-radius: 20px;
-}
-
-.principal__titulo{
-    font-size: 2em;
-    font-weight: 700;
-    color: var(--branco);
-    margin-bottom: 15px;
-}
-
-.principal__vagas{
-    text-align: center;
-    padding: 10px 5px;
-    border-radius: 5px;
-    border: none;
-}
-
-.principal__inserir{
-    font-family: var(--fonte);
-    font-weight: 600;
-    border-radius: 5px; 
-    border: none;
-    padding: 8px 20px;
-}
-
-.principal__inserir:active{
-    cursor: pointer;
-    background-color: var(--cinza);
-}
-
-.inserir__espaço{
-    margin-right: 10px;
-}
-
-.principal__limpar{
-    font-family: var(--fonte);
-    font-weight: 600;
-    border-radius: 5px; 
-    border: none;
-    padding: 8px 20px; 
-}
-
-.principal__limpar:active{
-    cursor: pointer;
-    background-color: var(--cinza);
-}
-
-.principal__resultado{
-    font-family: var(--fonte);
-    font-weight: 600;
-    font-size: 2em;
-    font-weight: 600;
-    color: var(--branco);
-    margin: 25px;
-}
-
-.principal__entrou{
-    font-family: var(--fonte);
-    font-weight: 600;
-    border-radius: 5px; 
-    border: none;
-    padding: 12px 20px;
-    margin-right: 15px;
-}
-
-.principal__entrou:active{
-    cursor: pointer;
-    background-color: green;
-}
-
-.principal__saiu{
-    font-family: var(--fonte);
-    font-weight: 600;
-    border-radius: 5px; 
-    border: none;
-    padding: 12px 20px;
-}
-
-.principal__saiu:active{
-    cursor: pointer;
-    background-color: red;
-}
-
-
-/*----------DESKTOP-----------*/
-
-@media screen and (min-width: 800px){
-    .principal{
-        max-width: 500px;
-        text-align: center;
-        background: rgb(32, 31, 31);
-        border-radius: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .principal__titulo{
-        color: var(--branco);
-        font-size: 4em;
-        padding: 20px 0 20px;
-        font-weight: bold; 
-    }
-
-    .principal__inserir:hover{
-        cursor: pointer;
-        background-color: var(--cinza);
-    }
-
-    .principal__limpar:hover{
-        cursor: pointer;
-        background-color: var(--cinza);
-    }
-
-    .principal__entrou:hover{
-        cursor: pointer;
-        background-color: green;
-    }
-
-    .principal__saiu:hover{
-        cursor: pointer;
-        background-color: red;
-    }
 }
