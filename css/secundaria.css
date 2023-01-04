@@ -1,6 +1,6 @@
 .secundaria{
     display: none;
-    
+    max-width: 300px;
 }
 
 .secundaria__resultado{
@@ -21,7 +21,7 @@
 .principal__resultado{
     font-family: var(--fonte);
     font-weight: 600;
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 600;
     color: var(--branco);
 }
@@ -46,7 +46,7 @@
 
 .secundario__entrou:active{
     cursor: pointer;
-    background-color: green;
+    background-color: red;
 }
 
 .secundario__saiu{
@@ -59,7 +59,7 @@
 
 .secundario__saiu:active{
     cursor: pointer;
-    background-color: red;
+    background-color: green;
 }
 
 .secundario__voltar{
@@ -70,4 +70,41 @@
     border-radius: 5px; 
     border: none;
     padding: 12px 20px;
+}
+
+@media screen and (min-width: 1000px){
+    .secundaria{
+        max-width: 600px;
+        text-align: center;
+        background: rgb(32, 31, 31);
+        border-radius: 20px;
+        padding-bottom: 20px;
+    }
+    .secundaria__resultado{
+        justify-content: space-around;
+    }
+    .fa-solid{
+        font-size: 100px;
+    }
+    .principal__resultado{
+        font-size: 4.5rem;
+    }
+    button{
+        width: 20%;
+        padding: 100px;
+        font-size: 1.5rem;
+    }
+    button:hover{
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    .secundario__entrou:hover{
+        background-color: red;
+    }
+    .secundario__saiu:hover{
+        background-color: green;
+    }
+    .secundario__voltar:hover{
+        background-color: gray;
+    }
 }

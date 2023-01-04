@@ -29,8 +29,13 @@ function entrou(){
   let resultado = document.querySelector("#res");
   let valorNovo = parseInt(resultado.textContent) - 1;
   resultado.textContent = valorNovo
-  arrowDown.style.visibility = "visible";
-  arrowUp.style.visibility = "collapse";
+  if(valorNovo < 0){
+    alert("Numero de vagas zerado, espere sair alguém")
+    resultado.textContent = 0;
+  } else {
+    arrowDown.style.visibility = "visible";
+    arrowUp.style.visibility = "collapse";
+  }
 }
 
 btnEntrou.addEventListener('click', entrou)

@@ -35,21 +35,18 @@
     border-radius: 5px; 
     border: none;
     padding: 12px 25px;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
 }
 
 .principal__inserir:active{
     cursor: pointer;
     background-color: var(--cinza);
+    color: #FFFFFF;
 }
 
-.inserir__espaço{
-    margin-right: 10px;
-}
 
-/*----------DESKTOP-----------*/
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1000px){
     .principal{
         max-width: 600px;
         text-align: center;
@@ -57,16 +54,22 @@
         border-radius: 20px;
         padding-bottom: 20px;
     }
-    
     .principal__titulo{
         color: var(--branco);
         font-size: 4em;
         padding: 20px 0 20px;
         font-weight: bold; 
     }
-
+    .principal__vagas{
+        width: 70%;
+    }
+    .principal__inserir{
+        font-size: 1.5rem;
+        width: 27%;
+    }
     .principal__inserir:hover{
         cursor: pointer;
         background-color: var(--cinza);
+        color: #FFFFFF;
     }
 }
