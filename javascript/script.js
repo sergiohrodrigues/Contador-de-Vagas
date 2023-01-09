@@ -78,7 +78,7 @@ function saiu(){
   if(valorNovo > valorInputTransformadoEmNumber){
     resultado.textContent = valorInputTransformadoEmNumber
     mensagemDeErroLimite.style.visibility = "visible"
-    mensagemDeErroLimite.innerHTML = "Limite de vagas do estabelecimento"
+    mensagemDeErroLimite.innerHTML = "Limite de vagas atingido"
   }
 }
 
