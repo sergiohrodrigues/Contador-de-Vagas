@@ -16,16 +16,18 @@
     <section class="container principal" id="principal">
         <h1 class="principal__titulo">Contador de vagas</h1>
         <input type="number" class="principal__vagas" id="valorInpt" placeholder="Insira o numero de vagas"><br>
-        <p class="principal__erro" id="principal__erro">Por favor Insira um numero de vagas!</p>
+        <span class="principal__erro" id="principal__erro">Por favor Insira um numero de vagas!</span>
         <button class="principal__inserir inserir__espaço" id="btnInserir">Inserir</button>
     </section>
 
     <section class="container secundaria">
+        <span class="mensagem-erro-vagas">Sem vagas, espere alguém sair.</span>
+        <span class="mensagem-erro-limite">Limite de vagas do estabelecimento</span>
         <div class="secundaria__resultado">
             <i class="fa-solid fa-arrow-down" id="arrow-down"></i>
-            <div class="caixa__resultado">
-                <h3 class="principal__resultado" id="res"></h3>
-                <span class="secundaria__vagas">Vagas</span>
+            <div class="secundaria__resultado-caixa">
+                <h3 class="secundaria__resultado-caixa-valor" id="res"></h3>
+                <span class="secundaria__resultado-caixa-vagas">Vagas</span>
             </div>
             <i class="fa-solid fa-arrow-up" id="arrow-up"></i>
         </div>
