@@ -4,6 +4,3 @@
 
 <h1>Funcionalidade</h1>
 <i>Coloque o numero total de vagas que contem no estabelecimento, conforme vai entrando gente, vai apertando em ENTROU e repare que vai diminuindo o total de vagas, e conforme vai saindo aperte em SAIR e note que volta a aumentar no numero de vagas, ele está bem simples, o mais importante é a funcionalidade rs, espero que gostem, enfim é isso.</i>
-
-<h1>INFELIZMENTE</h1>
-<i>Demorei muito pra terminar esse projeto, pois sabia bem pouco de programação, acabei saindo da empresa e nao consegui ajudar os guardinhas </i>:(
